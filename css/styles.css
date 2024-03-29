@@ -1085,7 +1085,7 @@ input:checked + svg.checkbox-icon {
     justify-content: flex-start;
   }
   .container {
-    min-width: 262px;
+    min-width: 249px;
   }
 }
 @media screen and (min-width: 429px) and (max-width: 768px) {
