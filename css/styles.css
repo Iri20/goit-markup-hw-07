@@ -1055,13 +1055,13 @@ input:checked + svg.checkbox-icon {
     display: none;
   }
   .header-container {
-    max-width: 80%;
+    max-width: 94%;
     margin-left: 6vw;
     display: flex;
     justify-content: flex-start;
   }
   .container {
-    min-width: 50px;
+    min-width: 260px;
   }
 }
 @media screen and (min-width: 429px) and (max-width: 768px) {
