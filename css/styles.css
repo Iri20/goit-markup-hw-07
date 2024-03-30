@@ -1013,7 +1013,7 @@ input:checked + svg.checkbox-icon {
     font-size: 23px;
   }
   .container {
-    min-width: 200px !important;
+    min-width: 100px !important;
   }
   .modal-icon-list .icon {
     width: 30px;
