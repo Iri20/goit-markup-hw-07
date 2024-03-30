@@ -986,7 +986,7 @@ input:checked + svg.checkbox-icon {
 .mailto:focus {
   color: #4d5ae5;
 }
-@media screen and (min-width: 200px) {
+@media screen and (max-width: 200px) {
   /* small mobile view */
   .modal-content {
     width: fit-content;
