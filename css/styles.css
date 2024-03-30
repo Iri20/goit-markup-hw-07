@@ -987,7 +987,7 @@ input:checked + svg.checkbox-icon {
   color: #4d5ae5;
 }
 
-@media screen and (max-width: 428px) {
+@media screen and (min-width: 428px) {
   /* mobile view*/
   .submit-container input {
     margin: 0;
