@@ -986,8 +986,42 @@ input:checked + svg.checkbox-icon {
 .mailto:focus {
   color: #4d5ae5;
 }
+@media screen and (min-width: 240px) {
+  /* small mobile view */
+  .modal-content {
+    width: fit-content;
+  }
+  .modal-content h3 {
+    margin-bottom: 0;
+  }
+  .check-text label {
+    font-size: 4vw;
+  }
+  .check-text {
+    align-items: flex-start;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  .modal-icon-list {
+    gap: 20px;
+  }
+  .modal-contacts {
+    margin-top: 90px;
+  }
+  .tel {
+    font-size: 23px;
+  }
+  .container {
+    min-width: 100px !important;
+  }
+  .modal-icon-list .icon {
+    width: 30px;
+    height: 30px;
+  }
+}
 
-@media screen and (min-width: 428px) {
+@media screen and (max-width: 428px) {
   /* mobile view*/
   .submit-container input {
     margin: 0;
